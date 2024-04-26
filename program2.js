@@ -2,10 +2,10 @@ function longestSubstring(s) {
     let maxLength = 0; 
     let start = 0; 
 
-    // Create a map to track the last index of each character in the string
+  
     const charMap = new Map();
 
-    // Iterate through the string
+  
     for (let end = 0; end < s.length; end++) {
         const currentChar = s[end];
 
