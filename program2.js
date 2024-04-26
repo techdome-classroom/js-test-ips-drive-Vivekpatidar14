@@ -1,6 +1,6 @@
 function longestSubstring(s) {
     let maxLength = 0; 
-    let start = 0; // Initialize the start index of the current substring
+    let start = 0; 
 
     // Create a map to track the last index of each character in the string
     const charMap = new Map();
